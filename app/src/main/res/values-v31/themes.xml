@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Set the splash sceen background animated icon and animation duration -->
+        <item name="windowSplashScreenBackground">@color/yellow</item>
+        <!-- Use windowSplashScreenAnimationtedIcon to add either a drawable or
+         an animated drawable One of theze is required.
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_home</item>-->
+
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_home</item>
+
+    </style>
+</resources>
